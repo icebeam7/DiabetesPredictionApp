@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesPredictionApp", "DiabetesPredictionApp\DiabetesPredictionApp.csproj", "{77D30499-FB30-4602-8CBE-E5AF06ED7AA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77D30499-FB30-4602-8CBE-E5AF06ED7AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D30499-FB30-4602-8CBE-E5AF06ED7AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D30499-FB30-4602-8CBE-E5AF06ED7AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D30499-FB30-4602-8CBE-E5AF06ED7AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
