@@ -73,7 +73,8 @@ namespace DiabetesPredictionApp
             var prediction = predictionEngine.Predict(patient);
             Console.WriteLine($"Predicted diabetes value: {prediction.PredictedDiabetesValue:0.####}");
 
-
+            Console.WriteLine("Saving the model");
+            context.Model.Save(model, trainingData.Schema, "MLModel.zip");
 
             Console.ReadLine();
         }
